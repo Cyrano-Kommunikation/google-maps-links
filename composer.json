@@ -1,5 +1,5 @@
 {
-    "name": "pschocke/google-maps-links",
+    "name": "cyrano/google-maps-links",
     "description": "easily create google maps links to link to a map",
     "keywords": [
         "Google Maps",
@@ -40,5 +40,10 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+    }
 }
